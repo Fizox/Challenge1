@@ -64,7 +64,7 @@ label{
 }
 input{
     font-family: openSans;
-    font-weight: 550;
+    font-weight: bold;
     margin-left: 20px;
     border: 0;
     width: 210px;
@@ -79,7 +79,7 @@ hr{
     
 }
 ::placeholder{
-    font-weight: 550;
+    font-weight: bold;
     font-family: openSans;
     color: #000000;
     font-size: 12px;
