@@ -1,6 +1,12 @@
+:root {
+    --body_bg:#c5c5c5;
+    --primary: #8132a3;
+    --ight:#eeeeee;
+    --white: #ffffff;
+    --black:#000000;
+  }
 body{
-    background-color:#c5c5c5;
-    ;
+    background-color:var(--body_bg);
     justify-content: center;
 }
 section{
@@ -10,7 +16,7 @@ section{
 .card{
     display:block;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--white);
     width: 250px;
     height: 340px;
     border-radius:2%;
@@ -21,12 +27,12 @@ section{
 .up{
     height: 10px;
     width: 100%;    
-    background-color: #8132a3;
+    background-color: var(--primary);
 }
 .photo{
     display: flex;
     justify-content: center;
-    background-color: #c5c5c5;
+    background-color: var(--body_bg);
     border-radius: 50%;
     height: 110px;
     width: 110px; 
@@ -34,11 +40,11 @@ section{
     margin-top: 25px;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 1px 15px 0 rgb(0 0 0 / 10%);
     border-style: solid;
-    border-color: #ffffff;
+    border-color: var(--white);
     overflow: hidden;
 }
 .head{
-    background-color: #ffffff;
+    background-color: var(--white);
     border-radius: 50%;
     height: 50px;
     width: 50px; 
@@ -47,7 +53,7 @@ section{
     position: absolute;
 }
 .body{
-    background-color: #ffffff;
+    background-color: var(--white);
     height: 80px;
     width: 80px;
     margin-top: 65px;
@@ -73,7 +79,7 @@ input{
 }
 hr{
     width: 210px;
-    background-color: #eeeeee;
+    background-color: var(--ight);
     border: 0;
     height: 1px;
     
@@ -81,7 +87,7 @@ hr{
 ::placeholder{
     font-weight: bold;
     font-family: openSans;
-    color: #000000;
+    color: var(--black);
     font-size: 12px;
 }
 @font-face {
