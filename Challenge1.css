@@ -1,7 +1,7 @@
 :root {
     --body_bg:#c5c5c5;
     --primary: #8132a3;
-    --ight:#eeeeee;
+    --light:#eeeeee;
     --white: #ffffff;
     --black:#000000;
   }
@@ -79,7 +79,7 @@ input{
 }
 hr{
     width: 210px;
-    background-color: var(--ight);
+    background-color: var(--light);
     border: 0;
     height: 1px;
     
